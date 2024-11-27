@@ -1,0 +1,5 @@
+FROM alpine:3
+
+RUN mkdir /dva
+COPY ./datavault /dva
+WORKDIR /dva
